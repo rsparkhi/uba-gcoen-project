@@ -1,0 +1,53 @@
+/* Color of the links BEFORE scroll */
+.navbar {
+  box-shadow: 10px 50px 10px -10px rgba(0, 0, 0, 0);
+}
+body {
+  padding-top: 80px;
+}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #014269;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.font-size-c {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.navbar-scrolled ul li a.nav-link:hover {
+  /* display: block; */
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #014269;
+}
+
+@media (max-width: 991px) {
+  body {
+    padding-top: 30px;
+  }
+
+  .navbar-scrolled ul li a.nav-link:hover {
+    /* display: block; */
+    background-color: transparent;
+    border-radius: 8px;
+    color: #014269;
+  }
+}

@@ -1,0 +1,9 @@
+.primary-button{
+    background-color: #014269;
+    border-radius: 7px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    box-shadow: 3px 3px 4px rgb(0, 0, 0);
+    color: #fff;
+}

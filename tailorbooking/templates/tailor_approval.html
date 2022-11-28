@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+
+    {% include "header.html" %}
+
+</head>
+
+<body>
+
+    {% include "navbar.html" %}
+
+    <button class="btn btn-secondary m-5" id="push">Push me down!</button>
+
+    <script>
+        var pushButton = document.getElementById('push');
+        pushButton.addEventListener("click", function() {
+            Swal.fire({
+                title: 'Success',
+                text: 'Booking successfully done!',
+                icon: 'success'
+            });
+        });
+    </script>
+</body>
+</html>
